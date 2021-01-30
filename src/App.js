@@ -1,9 +1,8 @@
 import React from 'react';
-import Header from './com/Header';
-import Balance from './com/Balance';
-import IncExp from './com/IncExp';
-import History from './com/History';
-import Transaction from './com/Transaction';
+import Header from './components/Header';
+import Balance from './components/Balance';
+import IncomeExpenses from './components/IncomeExpenses';
+import Transactions from './components/Transactions';
 import './App.css';
 
 function App() {
@@ -11,10 +10,9 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <Balance />
-        <IncExp />
-        <History />
-        <Transaction />
+        <Balance balance={1254}/>
+        <IncomeExpenses />
+        <Transactions />
       </div>
     </>
   );

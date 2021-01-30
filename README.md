@@ -2,28 +2,12 @@
 
 With React using hooks (useState, useContext, useReducer) and the context API.
 ## Todo
-- components
-  - Header
-    - create from js vanilla original repo
-    - adjust style
-  - Balance
-    - create from js vanilla original repo
-    - adjust style
-  - IncomeExpenses
-    - create from js vanilla original repo
-    - adjust style
-  - TransactionList
-    - create from js vanilla original repo
-    - adjust style
-  - AddTransaction
-    - create from js vanilla original repo
-    - adjust style
-    - 
-
-- 
-
-
-
+- balance
+  - calculate and send the balance from transactions to balance components
+- Incomes and Expenses
+- delete transaction
+- test and deploy
+- add screenshots
 
 ## Available Scripts
 
